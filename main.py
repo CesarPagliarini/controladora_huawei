@@ -16,7 +16,7 @@ def main():
     exportarReportes("Terminal Report", formato="csv")
     exportarReportes("Summary Report", formato="xlsx")
         
-    tiempoEjecucion(inicio)
+    #tiempoEjecucion(inicio)
     
 if __name__ == "__main__":
     main()
