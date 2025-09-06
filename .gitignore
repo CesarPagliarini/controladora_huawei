@@ -26,7 +26,14 @@ __pycache__/
 *.so
 
 # Archivos excel, zip y csv 
-documentos/*/*
+documentos/**/*.xlsx
+documentos/**/*.xls
+documentos/**/*.csv
+documentos/**/*.zip
+
+# No ignorar las carpetas
+!documentos/*/
+
 # Distribution / packaging
 .Python
 build/
